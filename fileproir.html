@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Money Tax Filing</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
+            <div class="container">
+                <div class="row gx-0 align-items-center">
+                    <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex flex-wrap">
+                            <div class="border-end border-primary pe-3">
+                                <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                            </div>
+                            <div class="ps-3">
+                                <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>example@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <div class="d-flex justify-content-end">
+                            <div class="d-flex border-end border-primary pe-3">
+                                <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light"> 
+                    <a href="index.html" class="navbar-brand p-0">
+                        <h1 class="text-primary mb-0 fs-6">Money Tax Filing</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-0 mx-lg-auto">
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                    <span class="dropdown-toggle">Expert Does Your Taxes</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a href="fullservice.html" class="dropdown-item">Full Service for Personal Taxes</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                    <span class="dropdown-toggle">Do It Yourself</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a href="personaltax.html" class="dropdown-item">Do Your Own Personal Taxes</a>
+                                    <a href="#" class="dropdown-item">Do Personal Taxes With Expert Help</a>
+                                    <a href="#" class="dropdown-item">Doing taxes with Desktop Software</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                    <span class="dropdown-toggle">Business Taxes</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a href="smallbusiness.html" class="dropdown-item">Small Business Taxes</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                    <span class="dropdown-toggle">Resources</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Tax Refund Calculator</a>
+                                    <a href="#" class="dropdown-item">Tax Bracket Calculator</a>
+                                    <a href="#" class="dropdown-item">W-4 Withholding Calculator</a>
+                                    <a href="#" class="dropdown-item">Self-Employed Expense Estimator</a>
+                                    <a href="#" class="dropdown-item">More Calculator</a>
+                                    <a href="#" class="dropdown-item">Latest Tax Law Changes</a>
+                                    <a href="#" class="dropdown-item">Active Duty / Reserve Military</a>
+                                    <a href="#" class="dropdown-item">Product Reviews</a>
+                                    <a href="#" class="dropdown-item">Tax Tips</a>
+                                    <a href="#" class="dropdown-item">Money Tax Blog</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                    <span class="dropdown-toggle">Support</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Help and Community Answers</a>
+                                    <a href="#" class="dropdown-item">Track Your Refund</a>
+                                    <a href="fileextension.html" class="dropdown-item">File an Extension</a>
+                                    <a href="#" class="dropdown-item">Check Your E-File Status</a>
+                                    <a href="fileproir.html" class="dropdown-item">File a Prior Year's Taxes</a>
+                                    <a href="#" class="dropdown-item">Amend Your Return</a>
+                                    <a href="#" class="dropdown-item">Find Prior Year Return</a>
+                                    <a href="#" class="dropdown-item">FAQ</a>
+                                </div>
+                            </div>
+                            <a href="pricing.html"><span>Pricing</span></a>
+                            <div class="dropdown ms-3">
+                                <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fas fa-globe-europe text-primary me-2"></i> English</small></a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="#" class="dropdown-item">American English</a>
+                                    <a href="#" class="dropdown-item">Español (Estados Unidos)</a>
+                                </div>
+                            </div>
+                            <div class="p-2">
+                                <button class="btn btn-primary">Sign Up</button>
+                                <button class="btn btn-primary">Sign In</button>
+                            </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center bg-primary">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Head Starts -->
+
+        <div class="text-center w-100 mb-5" style="background-color: rgb(228, 228, 225);">
+            <p class="p-3"><a href="">MoneyTax / Personal Taxes</a> / Past Years' Products</p>
+            <h3 class="p-3">File your 2023 taxes</h3>
+            <p class="pb-5 p-3">Here, you’ll find the right TurboTax product to file tax returns for a prior year.
+                If you’ve already purchased a previous year’s Desktop tax software you can <a href="">access it here</a>.</p>
+            <div class="d-flex flex-row justify-content-center fw-bold p-5 fs-4" style="background-color: rgb(217, 217, 208);">
+                <a href="" style="margin-right: 100px;">File 2022 Taxes</a>
+                <a href="">File 2021 Taxes</a>
+            </div>
+        </div>
+
+        <!-- Head Ends -->
+
+        <!-- Product Starts -->
+
+        
+            <div class="row row-cols-1 row-cols-md-3 g-4 m-5 p-5 text-dark">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body p-5">
+                        <h3 class="text-center">Deluxe</h3>
+                        <p class="card-text fw-bold text-center">Maximize your tax deductions</p>
+                        <ul class="m-5">
+                            <li>I own a home</li>
+                            <li>I have charitable donations to deduct</li>
+                            <li>I have high medical expenses</li>
+                        </ul>
+                        <h3 class="text-center">$80</h3>
+                        <p class="card-text fw-bold text-center">Federal and State</p>
+                        <div class="d-flex flex-row justify-content-center">
+                            <a class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body p-5">
+                        <h3 class="text-center">Premier</h3>
+                        <p class="card-text fw-bold text-center">Investments and rental property</p>
+                        <ul class="m-5">
+                            <li>I sold stock, bonds or mutual funds</li>
+                            <li>I sold employee stock (ESPP)</li>
+                            <li>I own rental property</li>
+                        </ul>
+                        <h3 class="text-center">$115</h3>
+                        <p class="card-text fw-bold text-center">Federal and State</p>
+                        <div class="d-flex flex-row justify-content-center">
+                            <a class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body p-5">
+                        <h3 class="text-center">Business</h3>
+                        <p class="card-text fw-bold text-center">Corporation, partnership and trusts</p>
+                        <ul class="m-5">
+                            <li>I own an S or C Corp</li>
+                            <li>I have a partnership</li>
+                            <li>I manage an estate or trust</li>
+                            <li>I file a separate tax return for my business</li>
+                        </ul>
+                        <h3 class="text-center">$190</h3>
+                        <p class="card-text fw-bold text-center"><a href="">State Additional</a></p>
+                        <div class="d-flex flex-row justify-content-center">
+                            <a class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="text-center m-3">Product download, installation and activation requires an Intuit Account and internet connection. <a href="">See full system requirements</a></p>
+              <p class="text-center m-5"><a href="">See current year's online products</a></p>
+              
+        <!-- Product Ends -->
+
+        
+      <!-- Lock Starts -->
+      <div class="mt-5">
+        <p class="text-center"><i class="fa fa-lock fs-3"></i></p>
+        <h4 class="text-center">Your security. Built into everything we do.</h4>
+        <p class="text-center"><a href="">Here's how</a></p>
+      </div>
+      <hr/>
+
+    <!-- Lock Ends -->
+
+
+    <!-- App Link Starts -->
+
+    <div class="text-center p-4">
+        <p><i class="fa fa-check fs-1"></i></p>
+        <p>File faster and easier with the free Money Tax app</p>
+        <div>
+            <img src="img/apps.webp" style="width: 150px;"/>
+        </div>
+    </div>
+
+    <div class="p-5">
+        <h6>MoneyTax Online: Important Details about Filing Simple Form 1040 Returns</h6>
+        <p>If you have a simple Form 1040 return only (no forms or schedules except as needed to claim the Earned Income Tax Credit, 
+            Child Tax Credit or student loan interest), you can file for free yourself with MoneyTax Free Edition, 
+            or you can file with MoneyTax Live Assisted Basic at the listed price. Roughly 37% of taxpayers are eligible.
+        </p>
+        <h6>Examples of situations included in a simple Form 1040 return (assuming no added tax complexity):</h6>
+        <ul>
+            <li>W-2 income</li>
+            <li>Interest, dividends or original issue discounts (1099-INT/1099-DIV/1099-OID) that don’t require filing a Schedule B</li>
+            <li>IRS standard deduction</li>
+            <li>Earned Income Tax Credit (EITC)</li>
+            <li>Child Tax Credit (CTC)</li>
+            <li>Student loan interest deduction</li>
+            <li>Taxable qualified retirement plan distributions</li>
+        </ul>
+        <h6>Examples of situations not included in a simple Form 1040 return:</h6>
+        <ul>
+            <li>Itemized deductions claimed on Schedule A, like charitable contributions, medical expenses, mortgage interest and state and local tax deductions</li>
+            <li>Unemployment income reported on a 1099-G</li>
+            <li>Business or 1099-NEC income (often reported by those who are self-employed, gig workers or freelancers)</li>
+            <li>Stock sales (including crypto investments)</li>
+            <li>Income from rental property or property sales</li>
+            <li>Credits, deductions and income reported on other forms or schedules </li>
+        </ul>
+        <p><a href="">*More important offer details and disclosures</a></p>
+    </div>
+
+
+    <!-- App Link Ends -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p>Expert tax filing made simple.Connect with our trusted advisors, upload your documents, and let us handle the rest with guranteed accuracy. Your peace of mind is our priority.</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>joseph@cresenttaxfiling.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>joseph@cresenttaxfiling.com</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1(916)-241-4499</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div> -->
+                <div class="col-lg-3 col-md-6 fw-light text-light">
+                    <h4 class="text-light">About</h4>
+                    <a class="btn btn-link text-light" href="">Compare MoneyTax Tax Products</a>
+                    <a class="btn btn-link text-light" href="">All online tax preparation software</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax online guarantees</a>
+                    <a class="btn btn-link text-light" href="">IRS Forms</a>
+                    <a class="btn btn-link text-light" href="">Self-employed tax center</a>
+                    <a class="btn btn-link text-light" href="">Tax Refund Advance</a>
+                    <a class="btn btn-link text-light" href="">Crypto Taxes</a>
+                    <a class="btn btn-link text-light" href="">Credit Karma Money</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Blog</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Canada</a>
+                    <a class="btn btn-link text-light" href="">Products for previous tax years</a>
+                </div>
+                <div class="col-lg-3 col-md-6 fw-light">
+                    <h4 class="text-light">Tax & Online Software Products</h4>
+                    <a class="btn btn-link text-light" href="">Free Edition tax filing</a>
+                    <a class="btn btn-link text-light" href="">Deluxe to maximize tax deductions</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax self-employed & investor taxes</a>
+                    <a class="btn btn-link text-light" href="">Free military tax filing discount</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Live tax expert products</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Live Premium</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Live Full Service Pricing</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Live Full Service Business Taxes</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Live Assisted Business Taxes</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Small Business Taxes</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Verified Tax Pros</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Verified Pros - Find Your Local Tax Professional</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Verified Pros - Pro Matching</a>
+                </div>
+                <div class="col-lg-3 col-md-6 fw-light">
+                    <h4 class="text-light">Desktop products</h4>
+                    <a class="btn btn-link text-light" href="">MoneyTax Desktop login</a>
+                    <a class="btn btn-link text-light" href="">Compare MoneyTax Desktop Products</a>
+                    <a class="btn btn-link text-light" href="">All Desktop products</a>
+                    <a class="btn btn-link text-light" href="">Install MoneyTax Desktop</a>
+                    <a class="btn btn-link text-light" href="">Check order status</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Advantage</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Desktop Business for corps</a>
+                </div>
+                <div class="col-lg-3 col-md-6 fw-light">
+                    <h4 class="text-light">Tax Tips</h4>
+                    <a class="btn btn-link text-light" href="">Tax tips and video homepage</a>
+                    <a class="btn btn-link text-light" href="">Browse all tax tips</a>
+                    <a class="btn btn-link text-light" href="">Married filing jointly vs separately</a>
+                    <a class="btn btn-link text-light" href="">Guide to head of household</a>
+                    <a class="btn btn-link text-light" href="">Rules for claiming dependents</a>
+                    <a class="btn btn-link text-light" href="">File taxes with no income</a>
+                    <a class="btn btn-link text-light" href="">About form 1099-NEC</a>
+                    <a class="btn btn-link text-light" href="">Amended tax return</a>
+                    <a class="btn btn-link text-light" href="">Capital gains tax rate</a>
+                    <a class="btn btn-link text-light" href="">File back taxes</a>
+                    <a class="btn btn-link text-light" href="">Find your AGI</a>
+                    <a class="btn btn-link text-light" href="">Unemployment benefits and taxes</a>
+                    <a class="btn btn-link text-light" href="">Investment tax tips</a>
+                    <a class="btn btn-link text-light" href="">Child tax credit</a>
+                    <a class="btn btn-link text-light" href="">Important tax deadlines</a>
+                    <a class="btn btn-link text-light" href="">Federal tax brackets</a>
+                </div>
+                <div class="col-lg-3 col-md-6 fw-light">
+                    <h4 class="text-light">Help and support</h4>
+                    <a class="btn btn-link text-light" href="">MoneyTax Live Community Support</a>
+                    <a class="btn btn-link text-light" href="">Contact us</a>
+                    <a class="btn btn-link text-light" href="">Where's my refund</a>
+                    <a class="btn btn-link text-light" href="">File an IRS tax extension</a>
+                    <a class="btn btn-link text-light" href="">Access your MoneyTax account</a>
+                    <a class="btn btn-link text-light" href="">Community</a>
+                    <a class="btn btn-link text-light" href="">Tax law & stimulus updates</a>
+                    <a class="btn btn-link text-light" href="">Refer Your Friends</a>
+                </div>
+                <div class="col-lg-3 col-md-6 fw-light">
+                    <h4 class="text-light">Tax tools</h4>
+                    <a class="btn btn-link text-light" href="">Tax calculators and tools</a>
+                    <a class="btn btn-link text-light" href="">TaxCaster tax calculator</a>
+                    <a class="btn btn-link text-light" href="">Tax bracket calculator</a>
+                    <a class="btn btn-link text-light" href="">Check e-file status refund tracker</a>
+                    <a class="btn btn-link text-light" href="">W-4 tax withholding calculator</a>
+                    <a class="btn btn-link text-light" href="">Its Deductible donation tracker</a>
+                    <a class="btn btn-link text-light" href="">Self-employed tax calculator</a>
+                    <a class="btn btn-link text-light" href="">Crypto tax calculator</a>
+                    <a class="btn btn-link text-light" href="">Capital gains tax calculator</a>
+                    <a class="btn btn-link text-light" href="">Bonus tax calculator</a>
+                    <a class="btn btn-link text-light" href="">Tax documents checklist</a>
+                </div>
+                <div class="col-lg-3 col-md-6 fw-light">
+                    <h4 class="text-light">Social and customer reviews</h4>
+                    <a class="btn btn-link text-light" href="">MoneyTax customer reviews</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Super Bowl commercial</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax vs H&R Block reviews</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax vs TaxSlayer reviews</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax vs TaxAct reviews</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax vs Jackson Hewitt reviews</a>
+                </div>
+                <div class="col-lg-3 col-md-6 fw-light">
+                    <h4 class="text-light">More products from Intuit</h4>
+                    <a class="btn btn-link text-light" href="">Accounting software</a>
+                    <a class="btn btn-link text-light" href="">Payroll</a>
+                    <a class="btn btn-link text-light" href="">QuickBooks payments</a>
+                    <a class="btn btn-link text-light" href="">Professional tax software</a>
+                    <a class="btn btn-link text-light" href="">Professional accounting software</a>
+                    <a class="btn btn-link text-light" href="">Credit Karma credit score</a>
+                    <a class="btn btn-link text-light" href="">More from Intuit</a>
+                    <a class="btn btn-link text-light" href="">Mailchimp</a>
+                    <a class="btn btn-link text-light" href="">Bookkeeper Services</a>
+                    <a class="btn btn-link text-light" href="">Invoicing Software</a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6 fw-light">
+                    <h4 class="text-light">En Español</h4>
+                    <a class="btn btn-link text-light" href="">MoneyTax en español</a>
+                    <a class="btn btn-link text-light" href="">MoneyTax Live en español</a>
+                </div>
+            </div>
+            <p class="p-5"><a href="">Sitemap</a></p>
+            <div class="col-lg-3 col-md-6 fw-light">
+                <h4 class="text-light">Money Tax</h4>
+                <a class="btn btn-link text-light" href="">About Money Tax</a>
+                <a class="btn btn-link text-light" href="">Join Our Team</a>
+                <a class="btn btn-link text-light" href="">Press</a>
+                <a class="btn btn-link text-light" href="">Privacy</a>
+                <a class="btn btn-link text-light" href="">Security</a>
+                <a class="btn btn-link text-light" href="">Software and Licenses</a>
+                <a class="btn btn-link text-light" href="">Trademark Notices</a>
+                <a class="btn btn-link text-light" href="">Affiliates and Partners</a>
+                <a class="btn btn-link text-light" href="">Accessibility</a>
+            </div> -->
+        </div>
+    </div>
+    <!-- Footer End -->
+    
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-end mb-md-0">
+                    <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>2024 Money Tax Filing</a>, All right reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-start text-body">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">Money Tax Filing</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
